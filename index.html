@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pi Academy | Math Tuition</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Pi_Academy_logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body class="light-mode">
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="Pi_Academy_logo.png" alt="Pi Academy Logo" class="navbar-logo">
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#pyq">PYQ</a></li>
+        <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mode-toggle">
+        <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="hero" class="hero-section alt-hero">
+  <div class="container hero-flex">
+    <div class="hero-left">
+      <h1>
+        Unlock Your <span class="gradient-text">Math Potential</span>
+        <br />
+        With Concept & Confidence
+      </h1>
+      <div class="badges">
+        <span class="badge blue">WBBSE</span>
+        <span class="badge orange">CBSE</span>
+        <span class="badge yellow">ICSE/ISC</span>
+        <!-- <span class="badge green">JEE / WBJEE</span> -->
+      </div>
+      <p class="hero-subtext">
+        Join a journey of excellence in math education—where clarity meets strategy and every student is guided to achieve academic brilliance.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary"><i class="fas fa-user-plus"></i> Apply Now</a>
+        <br />
+        <br />
+        <a href="#courses" class="btn btn-outline"><i class="fas fa-book-open"></i> Explore Courses</a>
+      </div>
+      <div class="hero-question">
+        🧮 Have questions about our batches? <a href="#contact">Ask us!</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-image-box">
+        <img src="Pi_Academy_logo.png" alt="Sabyasachi Sir with Students" />
+        <br />
+        <div class="image-caption">
+          <span style="white-space:nowrap;">Excellence in Math Education Since 2019</span><br />
+          <small style="display:inline-block; white-space:nowrap; width:100%;">Shaping competitive minds across West Bengal</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <section id="achievements" class="achievements-section">
+        <div class="container">
+        <h2><span class="gradient-text">Our Achievements</span></h2>
+        <p class="achievements-intro">
+          Celebrating our legacy of excellence in mathematics education.
+        </p>
+        <div class="stats-grid improved-achievements">
+          <div class="stat-card">
+            <div class=""><i class="fas fa-user-graduate"></i></div>
+            <p class="stat-number" data-target="1000">0</p>
+            <p class="stat-label">Students Mentored</p>
+          </div>
+          <div class="stat-card">
+            <div class=""><i class="fas fa-star"></i></div>
+            <p class="stat-number" data-target="4.8">0</p>
+            <p class="stat-label">Average Rating</p>
+          </div>
+          <div class="stat-card">
+            <div class=""><i class="fas fa-book-open"></i></div>
+            <p class="stat-number" data-target="10">0</p>
+            <p class="stat-label">Years of Experience</p>
+          </div>
+          <div class="stat-card">
+            <div class=""><i class="fas fa-chalkboard-teacher"></i></div>
+            <p class="stat-number" data-target="5">0</p>
+            <p class="stat-label">Courses Offered</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      <section id="about" class="about-section modern-about">
+      <div class="container about-flex">
+        <div class="about-image">
+          <img src="teacher_pic.jpg" alt="Sabyasachi Banerjee" />
+        </div>
+        <div class="about-content">
+          <h2><span class="gradient-text">Meet Your Mentor</span></h2>
+          <h3>Sabyasachi Banerjee</h3>
+          <p class="designation">Founder & Lead Educator</p>
+          <div class="badges">
+            <span class="badge blue">M.Sc. Math (Gold Medalist)</span>
+            <span class="badge green">B.Ed. </span>
+            <span class="badge orange">6+ Years Experience</span>
+          </div>
+          <p class="about-story">
+            Passionate about nurturing mathematical minds, Sabyasachi Sir brings over a decade of rich academic experience. His students excel in both board exams and competitive tests like WBJEE and JEE because of his crystal-clear explanations and problem-solving strategies.
+          </p>
+          <ul class="about-highlights">
+            <li><i class="fas fa-check-circle"></i> Concept-First Teaching Approach</li>
+            <li><i class="fas fa-check-circle"></i> Proven Results in Boards & Entrance Exams</li>
+            <li><i class="fas fa-check-circle"></i> 1-on-1 Guidance and Regular Mock Tests</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section id="courses" class="courses-section hidden">
+      <div class="container">
+        <h2>Our Courses</h2>
+        <div class="course-grid">
+          <div class="course-card">
+            <h3>WBBSE (Classes 8-10)</h3>
+            <ul>
+              <li>Comprehensive Syllabus Coverage</li>
+              <li>Regular Mock Tests</li>
+              <li>Doubt Clearing Sessions</li>
+              <li>Individual Attention</li>
+            </ul>
+            <a href="https://wa.me/919907713303?text=I%20want%20to%20join%20in%20WBBSE%20(Classes%208-10)%20batch" class="view-details-btn">View Details</a>
+          </div>
+          <div class="course-card">
+            <h3>CBSE (Classes 8-10)</h3>
+            <ul>
+              <li>NCERT & Exemplar Focus</li>
+              <li>Concept Building & Application</li>
+              <li>Chapter-wise Tests</li>
+              <li>Revision Classes</li>
+            </ul>
+            <a href="https://wa.me/919907713303?text=I%20want%20to%20join%20in%20CBSE%20(Classes%208-10)%20batch" class="view-details-btn">View Details</a>
+          </div>
+          <div class="course-card">
+            <h3>WBBSE (Classes 11-12)</h3>
+            <ul>
+              <li>Higher Secondary Curriculum</li>
+              <li>JEE Main Foundation</li>
+              <li>Advanced Problem Solving</li>
+              <li>Board Exam Preparation</li>
+            </ul>
+            <a href="https://wa.me/919907713303?text=I%20want%20to%20join%20in%20WBBSE%20(Classes%2011-12)%20batch" class="view-details-btn">View Details</a>
+          </div>
+          <div class="course-card">
+            <h3>ISC (Classes 11-12)</h3>
+            <ul>
+              <li>JEE Main Foundation</li>
+              <li>Extensive Practice Problems</li>
+              <li>Previous Year Questions</li>
+              <li>Strategic Test Series</li>
+            </ul>
+            <a href="https://wa.me/919907713303?text=I%20want%20to%20join%20in%20ISC%20(Classes%2011-12)%20batch" class="view-details-btn">View Details</a>
+          </div>
+          <div class="course-card">
+            <h3>WBJEE / JEE Main / JEE Advanced</h3>
+            <ul>
+              <li>Targeted Exam Preparation</li>
+              <li>Advanced Problem Solving</li>
+              <li>Mock Tests & Performance Analysis</li>
+              <li>Strategy & Time Management</li>
+            </ul>
+            <a href="https://wa.me/919907713303?text=I%20want%20to%20join%20in%20WBJEE%20%2F%20JEE%20Main%20%2F%20JEE%20Advanced%20batch" class="view-details-btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pyq" class="pyq-section hidden">
+      <div class="container">
+        <h2>Previous Year Questions (PYQ)</h2>
+        <div class="pyq-filters">
+          <select id="board-select">
+            <option value="">Select Board</option>
+            <option value="wbbse">WBBSE</option>
+            <option value="cbse">CBSE</option>
+            <option value="wbjee">WBJEE</option>
+            <option value="jee-main">JEE Main</option>
+            <option value="jee-advanced">JEE Advanced</option>
+          </select>
+          <select id="class-select">
+            <option value="">Select Class</option>
+            </select>
+          <button id="filter-pyq-btn">Filter PYQ</button>
+        </div>
+        <div class="pyq-results">
+          <p>Select a board and class to see previous year questions.</p>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-carousel">
+          <div class="testimonial-card active">
+            <p>"Pi Academy transformed my approach to math. The concepts are so clear now!"</p>
+            <h4>- Anjali Singh (Class 10)</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>"Excellent problem-solving strategies and consistent support. Highly recommend!"</p>
+            <h4>- Rahul Sharma (Class 12)</h4>
+          </div>
+          <div class="testimonial-card">
+            <p>"I finally understood calculus thanks to Sabyasachi Sir's engaging lessons."</p>
+            <h4>- Priya Das (JEE Main)</h4>
+          </div>
+        </div>
+        <div class="testimonial-dots" id="testimonial-dots"></div>
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section hidden">
+      <div class="container">
+        <!-- <h2>Contact Us</h2>
+        <p class="contact-intro">Have questions or ready to enroll? Reach out to us!</p>
+        <div class="contact-methods"> -->
+          <!-- <div class="contact-card">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Phone</h3>
+            <p><a href="tel:+919907713303">+91 9907713303</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-whatsapp"></i>
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/919907713303" target="_blank">Chat on WhatsApp</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:contact@piacademy.com">contact@piacademy.com</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>123 Math Street, Education City, WB 700001</p>
+          </div> -->
+        </div>
+        <h3>Send us a Message</h3>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="9928709c-c06d-4c65-bd69-3fac045c70a8"/>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="Pi_Academy_logo.png" alt="Pi Academy Logo">
+          <p>Empowering minds through mathematics.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-phone-alt"></i> 9907713303 / 8159910419</p>
+          <p><i class="fas fa-envelope"></i> sbsirpiacademy@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Chapadali, Nabapally, Barasat</p>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <a href="https://youtube.com/@sbsirpiacademy?si=b7VJrlJEXs__PKcB" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61573767593793" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/sbsirpiacademy/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2025 Pi Academy. All rights reserved.</p>
+      <p>Designed with ❤️ by Pi Academy</p>
+    </div>
+
+    <div id="admission-popup-overlay">
+    <div id="admission-popup-content">
+      <span class="close-popup-btn">×</span>
+      <h2>Admission Going On!</h2>
+      <p>Hurry Up! Limited Seats Available.</p>
+      <a href="#contact" class="btn btn-primary popup-cta">Apply Now</a>
+    </div>
+  </div>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
